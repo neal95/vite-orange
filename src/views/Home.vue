@@ -5,9 +5,9 @@ const { t } = useI18n();
 <template>
   <div class="container max-w-3xl mx-auto mt-40">
     <div class="text-center text-md">
-      <h1 class="font-serif font-bold text-4xl mb-8">{{ t('hello') }} , {{ t('welcome to') }} Vitecamp</h1>
+      <h1 class="font-serif font-bold text-4xl mb-8">{{ t('hello') }} , {{ t('welcome to') }} Vite-orange</h1>
       <p class="mb-10">
-        <strong>Vitecamp</strong>
+        <strong>Vite-orange</strong>
         {{ t('includes features') }}
       </p>
     </div>

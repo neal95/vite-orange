@@ -1,0 +1,13 @@
+html.dark {
+  /* 自定义深色背景颜色 */
+  color: #fff;
+  background-color: #626aef;
+  transition: background-color ease-in-out 0.3s;
+}
+
+html.light {
+  /* 自定义深色背景颜色 */
+  color: #000;
+  background-color: #fff;
+  transition: background-color ease-in-out 0.3s;
+}

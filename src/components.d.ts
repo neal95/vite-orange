@@ -12,6 +12,8 @@ declare module '@vue/runtime-core' {
     Home: typeof import('./views/Home.vue')['default']
     IconFa6solidLanguage: typeof import('~icons/fa/6solid-language')['default']
     IconFa6SolidLanguage: typeof import('~icons/fa6-solid/language')['default']
+    IconIconParkSolidBrightness: typeof import('~icons/icon-park-solid/brightness')['default']
+    IconIconParkSolidDarkMode: typeof import('~icons/icon-park-solid/dark-mode')['default']
     IconLaLanguage: typeof import('~icons/la/language')['default']
     ILaLanguage: typeof import('~icons/la/language')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

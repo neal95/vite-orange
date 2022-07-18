@@ -1,6 +1,5 @@
 // i18n
-import { createI18n } from 'vue-i18n';
-import messages from '@intlify/vite-plugin-vue-i18n/messages';
+import i18n from '@/plugins/I18n';
 
 // tailwindcss
 import '@/styles/tailwind.css';
@@ -9,14 +8,12 @@ import '@/styles/tailwind.css';
 import router from '@/router/index';
 
 // pinia
-import pinia from '@/store/index';
+import pinia from '@/plugins/pinia';
+
+// 黑暗模式
+import '@/styles/dark-mode.css';
 
 import App from './App.vue';
-
-const i18n = createI18n({
-  locale: 'en',
-  messages,
-});
 
 // 实例化
 const app = createApp(App);

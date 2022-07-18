@@ -21,7 +21,7 @@ const router: Router = createRouter({
 // 全局前置路由守卫
 router.beforeEach((to, from, next) => {
   NProgress.start();
-  console.log('全局路由前置守卫：to,from\n', to, from);
+  console.log('全局路由前置守卫:to,from\n', to, from);
   if (!NProgress.isStarted()) {
     NProgress.start();
   }
@@ -30,7 +30,7 @@ router.beforeEach((to, from, next) => {
 
 // 全局后置路由守卫
 router.afterEach((to, from, failure) => {
-  console.log('全局路由后置守卫：to,from\n', to, from);
+  console.log('全局路由后置守卫:to,from\n', to, from);
   NProgress.done();
 });
 

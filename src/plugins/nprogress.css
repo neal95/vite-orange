@@ -6,15 +6,7 @@
 /* 进度条 */
 #nprogress .bar {
   animation: 2s linear infinite RefreshedLoadingBarProgress;
-  background: linear-gradient(
-    to right,
-    #ffd600,
-    #ff7a00,
-    #ff0169,
-    #d300c5,
-    #7638fa,
-    #ffd600
-  );
+  background: linear-gradient(to right, #ffd600, #ff7a00, #ff0169, #d300c5, #7638fa, #ffd600);
   transform-origin: left;
   background-size: 500%;
   position: fixed;
@@ -74,12 +66,12 @@
   position: absolute;
 }
 
-@keyframes RefreshedLoadingBarProgress{
+@keyframes RefreshedLoadingBarProgress {
   from {
-    background-position:125% 0
+    background-position: 125% 0;
   }
   to {
-    background-position:0% 0
+    background-position: 0% 0;
   }
 }
 
