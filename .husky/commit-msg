@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+# pnpm
+pnpm exec commitlint -e "${1}"
+
+# npm yarn
+# npx commitlint -e "${1}"
+
+# yarn berry(yarn2+)
+# yarn exec commitlint -e "${1}"
